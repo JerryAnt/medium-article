@@ -33,7 +33,9 @@ color: #ffffff;
   margin: 50px auto;
   width: 600px;
 }
-
+.introduction{
+  font-weight: 900;
+}
 .container > h2{
   font-family: 'M PLUS 2', sans-serif;
   color: rgb(100, 100, 100);opacity:0.7;
