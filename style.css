@@ -1,0 +1,82 @@
+
+
+.banner{
+  background-image: url(https://source.unsplash.com/V2GG6dNpSMQ/1000x500);
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  display:block;
+  padding: 120px 0;
+  display: block;
+  position:relative;
+}
+
+.title-embedding{
+  display: block;
+}
+
+.title-embedding > h1{
+  color: #030E15 opacity:0.7;
+  text-align: center;
+  background-color: rgb(100, 100, 100) opacity:0.7;
+  display: block;
+}
+
+.title-embedding > h2{
+color: #ffffff;
+  text-align: center;
+  justify-content:  center;
+  display: block;
+}
+
+.container{
+  margin: 50px auto;
+  width: 600px;
+}
+
+.container > h2{
+  font-family: 'M PLUS 2', sans-serif;
+  color: rgb(100, 100, 100);opacity:0.7;
+  font-style: italic;
+  font-weight: bold;
+}
+
+p{
+  font-family: 'Playfair Display', serif;
+}
+
+a{
+  background-image: rgba(233, 253, 240, 1));
+  color: #111111;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius:4px;
+  box-shadow: 2.5px 2.5px 10px 2px rgb(50, 123, 141, 1);
+  padding:10px;
+  width:100%;
+ display: inline-block;
+ text-align: center;
+}
+
+a:hover{
+background-image: linear-gradient(rgba(50, 123, 141, 1), rgba(233, 253, 240, 1));
+box-shadow: 2.5px 2.5px 10px 2px rgb(82, 108, 64, 1);
+}
+
+@media (max-width: 750px){
+    .banner{
+    padding: 50px o;
+  }
+  .container{
+  width: 350px;
+  }
+}
+
+@media (max-width: 500px){
+  .banner{
+    padding: 50px o;
+  }
+  .container{
+  width: 450px;
+  }
+}
